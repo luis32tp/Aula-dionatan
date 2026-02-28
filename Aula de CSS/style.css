@@ -1,25 +1,25 @@
-*{ 
+* {
     margin: 10px;
     padding: 2px;
 }
 
-#titulo-principal{
+#titulo-principal {
     color: blueviolet;
 }
 
-.destaque{
+.destaque {
     background-color: yellowgreen;
 }
 
-div p{
+div p {
     color: palevioletred
 }
 
-div > p { 
+div>p {
     color: peru;
 }
 
-input[type="email"]{
+input[type="email"] {
     border: 2px solid red;
 
 }
@@ -33,8 +33,25 @@ li:first-child {
     font-size: 2px;
 }
 
-p::first-letter{
+p::first-letter {
     font-size: 40px;
     color: brown;
     font-weight: bold;
+}
+
+.secao {
+    height: 500px;
+    background-color: bisque;
+
+    p {
+        box-shadow: 5px 5px 8px black;
+    }
+
+    #lista {
+        background-color: rgb(37, 134, 158);
+
+        li {
+            font-size: large;
+        }
+    }
 }
